@@ -1,0 +1,12 @@
+[
+  {
+    "id": "AAPL",
+    "name": "Apple",
+    "age": 10
+  },
+  {
+    "id": "MSFT",
+    "name": "Microsoft",
+    "age": 20
+  }
+]
