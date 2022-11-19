@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-export default function Page() {
+export default function CompaniesDetails() {
   const router = useRouter();
   const { id } = router.query;
 

@@ -10,7 +10,7 @@ interface isData {
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-export default function index() {
+export default function Companies() {
   const { data, error } = useSWR("/api/profiles", fetcher);
 
   if (error) return "An error has occurred.";
